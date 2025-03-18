@@ -5,8 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Calculator" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
 
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5" x:Name="TextBlockAnswer"/>
+        
+        <Button Grid.Column="1" Grid.Row="1" Content="1" x:Name="Button1" FontSize="30" FontWeight="Bold" Background="LightSlateGray"/>
+        <Button Grid.Column="2" Grid.Row="1" Content="2" x:Name="Button2" FontSize="30" FontWeight="Bold" Background="LightSlateGray"/>
+        <Button Grid.Column="3" Grid.Row="1" Content="3" x:Name="Button3" FontSize="30" FontWeight="Bold" Background="LightSlateGray"/>
+        <Button Grid.Column="1" Grid.Row="2" Content="4" x:Name="Button4" FontSize="30" FontWeight="Bold" Background="LightSlateGray"/>
+        <Button Grid.Column="2" Grid.Row="2" Content="5" x:Name="Button5" FontSize="30" FontWeight="Bold" Background="LightSlateGray"/>
+        <Button Grid.Column="3" Grid.Row="2" Content="6" x:Name="Button6" FontSize="30" FontWeight="Bold" Background="LightSlateGray"/>
+        <Button Grid.Column="1" Grid.Row="3" Content="7" x:Name="Button7" FontSize="30" FontWeight="Bold" Background="LightSlateGray"/>
+        <Button Grid.Column="2" Grid.Row="3" Content="8" x:Name="Button8" FontSize="30" FontWeight="Bold" Background="LightSlateGray"/>
+        <Button Grid.Column="3" Grid.Row="3" Content="9" x:Name="Button9" FontSize="30" FontWeight="Bold" Background="LightSlateGray"/>
+        <Button Grid.Column="2" Grid.Row="4" Content="0" x:Name="Button0" FontSize="30" FontWeight="Bold" Background="LightSlateGray"/>
+        <Button Grid.Column="0" Grid.Row="4" Content="Histiory" x:Name="ButtonHistory" FontSize="30" FontWeight="Bold"/>
+        <Button Grid.Column="1" Grid.Row="4" Content="," x:Name="ButtonFloat" FontSize="30" FontWeight="Bold"/>
+        <Button Grid.Column="0" Grid.Row="1" Content="AC" x:Name="ButtonAC" FontSize="30" FontWeight="Bold"/>
+        <Button Grid.Column="0" Grid.Row="2" Content="&lt;-" x:Name="ButtonDeleteLast" FontSize="30" FontWeight="Bold"/>
+        <Button Grid.Column="0" Grid.Row="3" Content="+/-" x:Name="ButtonReverse" FontSize="30" FontWeight="Bold"/>
+        <Button Grid.Column="3" Grid.Row="4" Content="=" x:Name="ButtonEqual" FontSize="30" FontWeight="Bold" Background="Coral"/>
+        <Button Grid.Column="4" Grid.Row="1" Content="/" x:Name="ButtonDvision" FontSize="30" FontWeight="Bold" Background="Coral"/>
+        <Button Grid.Column="4" Grid.Row="2" Content="*" x:Name="ButtonMultiplication" FontSize="30" FontWeight="Bold" Background="Coral"/>
+        <Button Grid.Column="4" Grid.Row="3" Content="-" x:Name="ButtonMinus" FontSize="30" FontWeight="Bold" Background="Coral"/>
+        <Button Grid.Column="04" Grid.Row="4" Content="+" x:Name="ButtonPlus" FontSize="30" FontWeight="Bold" Background="Coral"/>
     </Grid>
 </Window>
