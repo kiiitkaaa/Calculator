@@ -1,15 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\",
+  "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\Calculator\\Calculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|\\\\mac\\home\\documents\\github\\calculator\\calculator\\calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|c:\\users\\acer\\desktop\\calculator\\calculator\\calculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|solutionrelative:calculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|\\\\mac\\home\\documents\\github\\calculator\\calculator\\calculator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|c:\\users\\acer\\desktop\\calculator\\calculator\\calculator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|solutionrelative:calculator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|\\\\mac\\home\\documents\\github\\calculator\\calculator\\calculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|c:\\users\\acer\\desktop\\calculator\\calculator\\calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|solutionrelative:calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,56 +22,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Calculator\\MainWindow.xaml",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\MainWindow.xaml",
-              "RelativeToolTip": "Calculator\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-17T21:21:55.587Z",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Calculator\\Calculator\\Calculator\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Calculator\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Calculator\\Calculator\\Calculator\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Calculator\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowHcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:52:41.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Calculator\\MainWindow.xaml.cs",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Calculator\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAUAAAAAAAAAA==",
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Calculator\\Calculator\\Calculator\\Calculator.cs",
+              "RelativeDocumentMoniker": "Calculator\\Calculator.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Calculator\\Calculator\\Calculator\\Calculator.cs",
+              "RelativeToolTip": "Calculator\\Calculator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T21:00:21.636Z",
+              "WhenOpened": "2025-03-19T12:52:37.898Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Calculator.cs",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\Calculator.cs",
-              "RelativeDocumentMoniker": "Calculator\\Calculator.cs",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\Calculator.cs",
-              "RelativeToolTip": "Calculator\\Calculator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T21:14:33.14Z",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Calculator\\Calculator\\Calculator\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Calculator\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Calculator\\Calculator\\Calculator\\MainWindow.xaml",
+              "RelativeToolTip": "Calculator\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T12:52:27.938Z",
               "EditorCaption": ""
             }
           ]

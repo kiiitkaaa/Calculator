@@ -58,26 +58,162 @@ public partial class MainWindow : Window
                 calculatorClass.Expression += "9";
                 break;
             case Key.Add: // +
+                calculatorClass.Expression += "+";
                 break;
             case Key.Subtract: // -
+                calculatorClass.Expression += "-";
                 break;
             case Key.Multiply: // *
+                calculatorClass.Expression += "*";
                 break;
             case Key.Divide: // /
+                calculatorClass.Expression += "/";
                 break;
             case Key.Enter: // =
-                TextBlockAnswer.Text += "=" + calculatorClass.GetAnswer();
+                TextBlockAnswer.Text = calculatorClass.GetAnswer();
                 break;
             case Key.Back: // Backspace
-                calculatorClass.Expression.Remove(calculatorClass.Expression.Length - 1);
-                break;
+                if (!string.IsNullOrEmpty(calculatorClass.Expression))
+                {
+                    calculatorClass.Expression = calculatorClass.Expression.Remove(calculatorClass.Expression.Length - 1);
+                    TextBlockAnswer.Text = calculatorClass.Expression;
+                    break;
+                }
+                else
+                {
+                    break;
+                }
             case Key.Delete:
+                calculatorClass.Expression = "";
                 break;
             case Key.OemPeriod: // .
+                calculatorClass.Expression += ".";
                 break;
             default:
                 break;
         }
         TextBlockAnswer.Text = calculatorClass.Expression;
     }
+
+    private void Button1_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += "1";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void Button2_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += "2";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void Button3_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += "3";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void Button4_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += "4";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void Button5_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += "5";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void Button6_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += "6";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void Button7_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += "7";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void Button8_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += "8";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void Button9_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += "9";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void Button0_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += "0";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void ButtonHistory_Click(object sender, RoutedEventArgs e)
+    {
+
+    }
+
+    private void ButtonFloat_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += ".";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void ButtonAC_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression = "";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void ButtonDeleteLast_Click(object sender, RoutedEventArgs e)
+    {
+        if (!string.IsNullOrEmpty(calculatorClass.Expression))
+        {
+            calculatorClass.Expression = calculatorClass.Expression.Remove(calculatorClass.Expression.Length - 1);
+            TextBlockAnswer.Text = calculatorClass.Expression;
+        }
+    }
+
+    private void ButtonReverse_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += "*(-1)";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void ButtonEqual_Click(object sender, RoutedEventArgs e)
+    {
+        TextBlockAnswer.Text = calculatorClass.GetAnswer();
+    }
+
+    private void ButtonDvision_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += "/";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void ButtonMultiplication_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += "*";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void ButtonMinus_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += "-";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
+    private void ButtonPlus_Click(object sender, RoutedEventArgs e)
+    {
+        calculatorClass.Expression += "+";
+        TextBlockAnswer.Text = calculatorClass.Expression;
+    }
+
 }
