@@ -5,13 +5,20 @@ using Newtonsoft.Json;
 
 namespace Calculator
 {
+    /// <summary>
+    /// Калькулятор
+    /// </summary>
     public class CalculatorClass
     {
         private const string HistoryFile = "history.json";
 
-        public string Expression { get; set; }
-        private string Answer { get; set; }
+        public string Expression { get; set; } // Выражение
+        private string Answer { get; set; } // Ответ
 
+        /// <summary>
+        /// Рассчёт выражения
+        /// </summary>
+        /// <returns></returns>
         public string GetAnswer()
         {
             try
@@ -23,13 +30,16 @@ namespace Calculator
                 }
                 return Answer;
             }
-            catch (Exception ex)
+            catch
             {
-                MessageBox.Show(caption: "Ошибка", messageBoxText: $"{ex}");
-                return "долбоёб";
+                MessageBox.Show(caption: "Ошибка", messageBoxText: "Неврный ввод!");
+                return "Ошибка";
             }
         }
 
+        /// <summary>
+        /// Сохранение варадения в json файл
+        /// </summary>
         private void SaveToHistory()
         {
             try
@@ -50,6 +60,11 @@ namespace Calculator
             }
         }
 
+
+        /// <summary>
+        /// Загрузка значений из json файла
+        /// </summary>
+        /// <returns></returns>
         public static List<Dictionary<string, string>> LoadHistory()
         {
             if (!File.Exists(HistoryFile))
@@ -59,6 +74,9 @@ namespace Calculator
             return JsonConvert.DeserializeObject<List<Dictionary<string, string>>>(json) ?? new List<Dictionary<string, string>>();
         }
 
+        /// <summary>
+        /// Очистка истории
+        /// </summary>
         public static void ClearHistory()
         {
             File.WriteAllText(HistoryFile, "[]");

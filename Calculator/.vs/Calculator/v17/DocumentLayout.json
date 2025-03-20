@@ -3,13 +3,16 @@
   "WorkspaceRootPath": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|\\\\mac\\home\\documents\\github\\calculator\\calculator\\calculator\\historyusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|\\\\mac\\home\\documents\\github\\calculator\\calculator\\calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|\\\\mac\\home\\documents\\github\\calculator\\calculator\\calculator\\historywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|\\\\mac\\home\\documents\\github\\calculator\\calculator\\calculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|\\\\mac\\home\\documents\\github\\calculator\\calculator\\calculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|\\\\mac\\home\\documents\\github\\calculator\\calculator\\calculator\\historywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|\\\\mac\\home\\documents\\github\\calculator\\calculator\\calculator\\historyusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -19,13 +22,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|\\\\mac\\home\\documents\\github\\calculator\\calculator\\calculator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|\\\\mac\\home\\documents\\github\\calculator\\calculator\\calculator\\historyusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-=======
-      "AbsoluteMoniker": "D:0:0:{E530D3AA-EB03-47E5-B6CC-DF44B6DF50F6}|Calculator\\Calculator.csproj|\\\\mac\\home\\documents\\github\\calculator\\calculator\\calculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -35,7 +31,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,53 +47,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HistoryUserControl.xaml",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\HistoryUserControl.xaml",
-              "RelativeDocumentMoniker": "Calculator\\HistoryUserControl.xaml",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\HistoryUserControl.xaml",
-              "RelativeToolTip": "Calculator\\HistoryUserControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-19T18:57:55.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "HistoryUserControl.xaml.cs",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\HistoryUserControl.xaml.cs",
-              "RelativeDocumentMoniker": "Calculator\\HistoryUserControl.xaml.cs",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\HistoryUserControl.xaml.cs",
-              "RelativeToolTip": "Calculator\\HistoryUserControl.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:56:23.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "HistoryWindow.xaml.cs",
               "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\HistoryWindow.xaml.cs",
               "RelativeDocumentMoniker": "Calculator\\HistoryWindow.xaml.cs",
               "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\HistoryWindow.xaml.cs",
               "RelativeToolTip": "Calculator\\HistoryWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAACA3JmZmZkMwAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAABAiWZmZmYUwB0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:52:12.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HistoryWindow.xaml",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\HistoryWindow.xaml",
-              "RelativeDocumentMoniker": "Calculator\\HistoryWindow.xaml",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\HistoryWindow.xaml",
-              "RelativeToolTip": "Calculator\\HistoryWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-19T16:12:29.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T16:52:12.485Z"
             },
             {
               "$type": "Document",
@@ -107,26 +65,24 @@
               "RelativeDocumentMoniker": "Calculator\\MainWindow.xaml.cs",
               "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\MainWindow.xaml.cs",
               "RelativeToolTip": "Calculator\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAK4AAACADGZmZmYkwEgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAEgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T12:52:41.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T12:52:41.284Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Calculator\\MainWindow.xaml",
               "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\MainWindow.xaml",
               "RelativeToolTip": "Calculator\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-19T12:52:27.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T12:52:27.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Calculator.cs",
               "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\Calculator.cs",
               "RelativeDocumentMoniker": "Calculator\\Calculator.cs",
@@ -139,16 +95,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Calculator\\MainWindow.xaml.cs",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Calculator\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T21:00:21.636Z",
+              "DocumentIndex": 5,
+              "Title": "HistoryWindow.xaml",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\HistoryWindow.xaml",
+              "RelativeDocumentMoniker": "Calculator\\HistoryWindow.xaml",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\HistoryWindow.xaml",
+              "RelativeToolTip": "Calculator\\HistoryWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T16:12:29.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HistoryUserControl.xaml",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\HistoryUserControl.xaml",
+              "RelativeDocumentMoniker": "Calculator\\HistoryUserControl.xaml",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\HistoryUserControl.xaml",
+              "RelativeToolTip": "Calculator\\HistoryUserControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T18:57:55.794Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HistoryUserControl.xaml.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\HistoryUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "Calculator\\HistoryUserControl.xaml.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\Calculator\\Calculator\\Calculator\\HistoryUserControl.xaml.cs",
+              "RelativeToolTip": "Calculator\\HistoryUserControl.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAoDMzMzPbvwIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T16:56:23.759Z"
             }
           ]
         }
