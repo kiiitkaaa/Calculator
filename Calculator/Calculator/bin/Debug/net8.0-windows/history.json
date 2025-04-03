@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "Expression": "5*(-1)+9",
+    "Answer": "4"
+  },
+  {
+    "Expression": "5.0+9.8",
+    "Answer": "14,8"
+  },
+  {
+    "Expression": "7+9",
+    "Answer": "16"
+  },
+  {
+    "Expression": "2+9",
+    "Answer": "11"
+  },
+  {
+    "Expression": "3/4",
+    "Answer": "0,75"
+  },
+  {
+    "Expression": "3/4",
+    "Answer": "0,75"
+  },
+  {
+    "Expression": "56*98",
+    "Answer": "5488"
+  }
+]
