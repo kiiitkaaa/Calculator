@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-\\Mac\Home\Documents\GitHub\Calculator\Calculator\Calculator\obj\Debug\net8.0-windows\
+C:\Users\Acer\Desktop\Calculator22\Calculator\Calculator\obj\Debug\net8.0-windows\
 Calculator
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-\\Mac\Home\Documents\GitHub\Calculator\Calculator\Calculator\App.xaml
+C:\Users\Acer\Desktop\Calculator22\Calculator\Calculator\App.xaml
 3-809114759
 
-13336909282
-204-2075147100
+211424186397
+204-436146605
 HistoryUserControl.xaml;HistoryWindow.xaml;MainWindow.xaml;
 
-False
+True
 

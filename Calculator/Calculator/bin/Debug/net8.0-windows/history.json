@@ -26,5 +26,169 @@
   {
     "Expression": "56*98",
     "Answer": "5488"
+  },
+  {
+    "Expression": "1+5",
+    "Answer": "6"
+  },
+  {
+    "Expression": "3+3",
+    "Answer": "6"
+  },
+  {
+    "Expression": "5+5",
+    "Answer": "10"
+  },
+  {
+    "Expression": "5+5",
+    "Answer": "10"
+  },
+  {
+    "Expression": "5+5",
+    "Answer": "10"
+  },
+  {
+    "Expression": "5+5",
+    "Answer": "10"
+  },
+  {
+    "Expression": "5+5",
+    "Answer": "10"
+  },
+  {
+    "Expression": "5+5",
+    "Answer": "10"
+  },
+  {
+    "Expression": "5+5",
+    "Answer": "10"
+  },
+  {
+    "Expression": "5+5",
+    "Answer": "10"
+  },
+  {
+    "Expression": "5+5",
+    "Answer": "10"
+  },
+  {
+    "Expression": "6+6",
+    "Answer": "12"
+  },
+  {
+    "Expression": "15+9",
+    "Answer": "24"
+  },
+  {
+    "Expression": "2+9",
+    "Answer": "11"
+  },
+  {
+    "Expression": "4*(-1)+9",
+    "Answer": "5"
+  },
+  {
+    "Expression": "4*(-1)+98",
+    "Answer": "94"
+  },
+  {
+    "Expression": "5.8-9",
+    "Answer": "-3,2"
+  },
+  {
+    "Expression": "1+9",
+    "Answer": "10"
+  },
+  {
+    "Expression": "5*9",
+    "Answer": "45"
+  },
+  {
+    "Expression": "5+9",
+    "Answer": "14"
+  },
+  {
+    "Expression": "14",
+    "Answer": "14"
+  },
+  {
+    "Expression": "85-6",
+    "Answer": "79"
+  },
+  {
+    "Expression": "79",
+    "Answer": "79"
+  },
+  {
+    "Expression": "5+9*8",
+    "Answer": "77"
+  },
+  {
+    "Expression": "77",
+    "Answer": "77"
+  },
+  {
+    "Expression": "5+9",
+    "Answer": "14"
+  },
+  {
+    "Expression": "5+9",
+    "Answer": "14"
+  },
+  {
+    "Expression": "5+9*6",
+    "Answer": "59"
+  },
+  {
+    "Expression": "5+9*6",
+    "Answer": "59"
+  },
+  {
+    "Expression": "12+6",
+    "Answer": "18"
+  },
+  {
+    "Expression": "12+6",
+    "Answer": "18"
+  },
+  {
+    "Expression": "5*3",
+    "Answer": "15"
+  },
+  {
+    "Expression": "5*33",
+    "Answer": "165"
+  },
+  {
+    "Expression": "5*333",
+    "Answer": "1665"
+  },
+  {
+    "Expression": "5*3333",
+    "Answer": "16665"
+  },
+  {
+    "Expression": "5*3",
+    "Answer": "15"
+  },
+  {
+    "Expression": "5*3",
+    "Answer": "15"
+  },
+  {
+    "Expression": "38*66",
+    "Answer": "2508"
+  },
+  {
+    "Expression": "33",
+    "Answer": "33"
+  },
+  {
+    "Expression": "5*6",
+    "Answer": "30"
+  },
+  {
+    "Expression": "5*6",
+    "Answer": "30"
   }
 ]

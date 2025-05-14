@@ -1,4 +1,5 @@
 ﻿using Calculator.Buttons;
+using Calculator.Commands;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -11,6 +12,7 @@ namespace Calculator
     public partial class MainWindow : Window
     {
         private readonly CalculatorClass calculator = new();
+        private readonly CommandInvoker commandInvoker = new(); 
 
         public MainWindow()
         {
@@ -100,122 +102,161 @@ namespace Calculator
 
         private void OnDigitClick(object sender, RoutedEventArgs e)
         {
-            calculator.Expression += ((Button)sender).Content.ToString();
+            var value = ((Button)sender).Content.ToString();
+            var command = new AddCommand(calculator, value);
+            commandInvoker.ExecuteCommand(command);
             TextBlockAnswer.Text = calculator.Expression;
         }
 
         private void OnOperationClick(object sender, RoutedEventArgs e)
         {
-            calculator.Expression += ((Button)sender).Content.ToString();
+            var value = ((Button)sender).Content.ToString();
+            var command = new AddCommand(calculator, value);
+            commandInvoker.ExecuteCommand(command);
             TextBlockAnswer.Text = calculator.Expression;
         }
 
         private void OnClearClick(object sender, RoutedEventArgs e)
         {
-            calculator.Expression = "";
+            var command = new ClearCommand(calculator);
+            commandInvoker.ExecuteCommand(command);
             TextBlockAnswer.Text = calculator.Expression;
         }
 
         private void OnEqualClick(object sender, RoutedEventArgs e)
         {
+            commandInvoker.ExecuteCommand(new EvaluateCommand(calculator));
             TextBlockAnswer.Text = calculator.GetAnswer();
         }
 
         private void OnHistoryClick(object sender, RoutedEventArgs e)
         {
-            HistoryWindow historyWindow = new HistoryWindow();
+            HistoryWindow historyWindow = new();
             historyWindow.ShowDialog();
         }
 
         private void OnDeleteClick(object sender, RoutedEventArgs e)
         {
-            if (!string.IsNullOrEmpty(calculator.Expression))
-            {
-                calculator.Expression = calculator.Expression.Remove(calculator.Expression.Length - 1);
-                TextBlockAnswer.Text = calculator.Expression;
-            }
+            var command = new DeleteCommand(calculator);
+            commandInvoker.ExecuteCommand(command);
+            TextBlockAnswer.Text = calculator.Expression;
         }
 
         private void OnFloatClick(object sender, RoutedEventArgs e)
         {
-            calculator.Expression += ".";
+            var command = new FloatPointCommand(calculator);
+            commandInvoker.ExecuteCommand(command);
             TextBlockAnswer.Text = calculator.Expression;
         }
 
         private void OnReverseClick(object sender, RoutedEventArgs e)
         {
-            calculator.Expression += "*(-1)";
+            var command = new ReverseSignCommand(calculator);
+            commandInvoker.ExecuteCommand(command);
             TextBlockAnswer.Text = calculator.Expression;
+        }
+
+        private void UndoButton_Click(object sender, RoutedEventArgs e)
+        {
+            commandInvoker.Undo();
+            TextBlockAnswer.Text = calculator.Expression;
+        }
+
+        private void ClearButton_Click(object sender, RoutedEventArgs e)
+        {
+            calculator.Expression = "";
+            TextBlockAnswer.Text = "";
+            commandInvoker.Clear();
         }
 
         private void Window_PreviewKeyDown(object sender, KeyEventArgs e)
         {
+            if (e.Key == Key.Z && Keyboard.Modifiers == ModifierKeys.Control)
+            {
+                commandInvoker.Undo();
+                TextBlockAnswer.Text = calculator.Expression;
+                return; 
+            }
+            else if (e.Key == Key.Escape)
+            {
+                calculator.Expression = "";
+                TextBlockAnswer.Text = "";
+                commandInvoker.Clear();
+                return;
+            }
+
+            string? input = null;
+
             switch (e.Key)
             {
                 case Key.D0:
-                    calculator.Expression += "0";
+                    input = "0";
                     break;
                 case Key.D1:
-                    calculator.Expression += "1";
+                    input = "1";
                     break;
                 case Key.D2:
-                    calculator.Expression += "2";
+                    input = "2";
                     break;
                 case Key.D3:
-                    calculator.Expression += "3";
+                    input = "3";
                     break;
                 case Key.D4:
-                    calculator.Expression += "4";
+                    input = "4";
                     break;
                 case Key.D5:
-                    calculator.Expression += "5";
+                    input = "5";
                     break;
                 case Key.D6:
-                    calculator.Expression += "6";
+                    input = "6";
                     break;
                 case Key.D7:
-                    calculator.Expression += "7";
+                    input = "7";
                     break;
                 case Key.D8:
-                    calculator.Expression += "8";
+                    input = "8";
                     break;
                 case Key.D9:
-                    calculator.Expression += "9";
+                    input = "9";
                     break;
                 case Key.Add:
-                    calculator.Expression += "+";
+                    input = "+";
                     break;
                 case Key.Subtract:
-                    calculator.Expression += "-";
+                    input = "-";
                     break;
                 case Key.Multiply:
-                    calculator.Expression += "*";
+                    input = "*";
                     break;
                 case Key.Divide:
-                    calculator.Expression += "/";
+                    input = "/";
                     break;
                 case Key.Enter:
-                    TextBlockAnswer.Text = calculator.GetAnswer();
+                    commandInvoker.ExecuteCommand(new EvaluateCommand(calculator));
+                    TextBlockAnswer.Text = calculator.Expression;
                     break;
                 case Key.Back:
                     if (!string.IsNullOrEmpty(calculator.Expression))
                     {
-                        calculator.Expression = calculator.Expression.Remove(calculator.Expression.Length - 1);
-                        break;
+                        commandInvoker.ExecuteCommand(new DeleteCommand(calculator));
+                        TextBlockAnswer.Text = calculator.Expression;
                     }
-                    else
-                    {
-                        break;
-                    }
+                    break;
                 case Key.Delete:
-                    calculator.Expression = "";
+                    commandInvoker.ExecuteCommand(new ClearCommand(calculator));
+                    TextBlockAnswer.Text = calculator.Expression;
                     break;
                 case Key.OemPeriod:
-                    calculator.Expression += ".";
+                    var command = new FloatPointCommand(calculator);
+                    commandInvoker.ExecuteCommand(command);
                     break;
                 default:
                     break;
             }
+
+            if (!string.IsNullOrEmpty(input))
+                commandInvoker.ExecuteCommand(new AddCommand(calculator, input));
+
             TextBlockAnswer.Text = calculator.Expression;
         }
     }
