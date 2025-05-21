@@ -1,0 +1,27 @@
+{
+  "DigitButton": {
+    "Background": "LightSlateGray",
+    "Foreground": "Black",
+    "FontSize": 30
+  },
+  "OperationButton": {
+    "Background": "Coral",
+    "Foreground": "Black",
+    "FontSize": 30
+  },
+  "FunctionButton": {
+    "Background": "LightGray",
+    "Foreground": "Black",
+    "FontSize": 30
+  },
+  "HistoryWindow": {
+    "Background": "Coral",
+    "Foreground": "Black",
+    "FontSize": 20
+  },
+  "HistoryControl": {
+    "Background": "LightSlateGray",
+    "Foreground": "Black",
+    "FontSize": 20
+  }
+}

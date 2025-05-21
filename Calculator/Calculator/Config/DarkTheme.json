@@ -1,0 +1,28 @@
+{
+  "DigitButton": {
+    "Background": "#333333",
+    "Foreground": "White",
+    "FontSize": 30
+  },
+  "OperationButton": {
+    "Background": "#555555",
+    "Foreground": "Orange",
+    "FontSize": 30
+  },
+  "FunctionButton": {
+    "Background": "#222222",
+    "Foreground": "Cyan",
+    "FontSize": 30
+  },
+  "HistoryWindow": {
+    "Background": "#333333",
+    "Foreground": "Orange",
+    "FontSize": 20
+  },
+  "HistoryControl": {
+    "Background": "#222222",
+    "Foreground": "Cyan",
+    "FontSize": 20
+  }
+}
+
