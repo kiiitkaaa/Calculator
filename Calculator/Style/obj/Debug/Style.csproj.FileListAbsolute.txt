@@ -1,0 +1,6 @@
+\\Mac\Home\Desktop\BNTU\2 курс\2 сем\КПО\Calculator\Calculator\Style\bin\Debug\Style.dll
+\\Mac\Home\Desktop\BNTU\2 курс\2 сем\КПО\Calculator\Calculator\Style\bin\Debug\Style.pdb
+\\Mac\Home\Desktop\BNTU\2 курс\2 сем\КПО\Calculator\Calculator\Style\obj\Debug\Style.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\BNTU\2 курс\2 сем\КПО\Calculator\Calculator\Style\obj\Debug\Style.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\BNTU\2 курс\2 сем\КПО\Calculator\Calculator\Style\obj\Debug\Style.dll
+\\Mac\Home\Desktop\BNTU\2 курс\2 сем\КПО\Calculator\Calculator\Style\obj\Debug\Style.pdb
